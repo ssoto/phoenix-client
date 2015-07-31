@@ -21,7 +21,7 @@ HBase 0.98.x requires Apache Phoenix version 4.0
 .etc
 
 #usage:
-
+```javascript
 phoenix = require("phoenix-client");
 
 //first param 'url' is required;
@@ -43,3 +43,4 @@ db.upsertMuti(["sql1","sql2"],function success(){
     console.info("upsert successfully");
 },function error(e){
 });;
+```
